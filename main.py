@@ -1,5 +1,5 @@
 # i need to put my header here 
-room  = {"Forest": "You're in a deep large forest. The burds are signing and the air smells fresh. despite this, something inside you is screaming at you to run away. ", 
+room  = {"Forest" : "You're in a deep large forest. The burds are signing and the air smells fresh. despite this, something inside you is screaming at you to run away. ", 
         
          "Tavern" : "You enter a small broken down shack. However, upon entering, you you see a massive hall with a bar, a dining area, a commons area and a dacne ball.",
 
@@ -17,5 +17,6 @@ room  = {"Forest": "You're in a deep large forest. The burds are signing and the
 Game_map = [
 ["Tavern", "Merchant Town"],
 ["Forest", "Bridge", "Tower", "Colloseaum"],
-["Cave", ]
+["Cave",  ]
          ]
+print(Game_map[0])
